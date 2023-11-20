@@ -1,0 +1,68 @@
+/* 0873FD Main szin */
+/* 0A5AC0 Háttérszín*/
+/* 1A304E Navbar*/
+/* CACACA Text  */
+body {
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        background-color: #0A5AC0;
+        color: white;
+    }
+main {
+    background-color: #0873FD;
+    border-radius: 2%;
+    }
+nav {
+    background-color: #1A304E;
+    padding: 5px;
+}
+article {
+    text-align: center;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+header h1 {
+    text-align: center;
+}
+
+footer h3 {
+    text-align: center;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+a:hover {
+    color: red;
+}
+header img {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+footer {
+    background-color: #1A304E;
+    border-radius: 2%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }

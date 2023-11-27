@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wowShutDownInChina {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid 6px white;
+    
+    
+}
+
+.LichKingImg  img{
+    width: 50%;
+    
+}
+
+.wowShutDownInChinaDescription {
+    margin-top: 20px;
+    
+}
+
+.wowShutDownInChinaDescriptionPdf img {
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wowShutDownInChina {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .LichKingImg  img{
+        margin-left: 70px;
+        
+    }
+    .wowShutDownInChinaDescription p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .wowShutDownInChinaDescriptionPdf a {
+        margin-right: 300px;
+    }
+  }

@@ -65,4 +65,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
     }
+    header img {
+        width: 30%;
+    }
   }
